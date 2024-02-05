@@ -5,8 +5,6 @@
 [TOC]
 
 > Realizado por: Laura Suárez
->
-> Realizado: Alberto Vicente
 
 
 
@@ -30,8 +28,9 @@
 
    ![image-20240202102418617](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240202102418617.png)
 
-3. ghk
+3. Utiliza el comando docker cp para copiar un fichero index.html en el directorio /var/www/html.
 
+<<<<<<< Updated upstream
 4. hko
 
 
@@ -50,3 +49,14 @@
 6. Crea un nuevo contenedor y monta el mismo directorio como en el ejricico anterior.
 7. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero `index.html`. ¿Se sigue viendo contenido?.
 
+=======
+   
+
+4. koo
+
+5. hui
+
+6. bip
+
+7. vgy
+>>>>>>> Stashed changes
