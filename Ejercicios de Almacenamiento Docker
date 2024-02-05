@@ -32,10 +32,21 @@
 
 3. Utiliza el comando docker cp para copiar un fichero index.html en el directorio /var/www/html.
 
-<<<<<<< Updated upstream
-4. hko
+   ![image-20240205100038725](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240205100038725.png)
 
+   ![image-20240205100703178](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240205100703178.png)
 
+   ![image-20240205101434190](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240205101434190.png)
+
+4. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero index.html.
+
+   -
+
+5. th
+
+6. rth
+
+7. rth
 
 
 
@@ -50,15 +61,3 @@
 5. Borra el contenedor.
 6. Crea un nuevo contenedor y monta el mismo directorio como en el ejricico anterior.
 7. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero `index.html`. ¿Se sigue viendo contenido?.
-
-=======
-   
-
-4. koo
-
-5. hui
-
-6. bip
-
-7. vgy
->>>>>>> Stashed changes
