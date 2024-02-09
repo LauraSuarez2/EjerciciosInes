@@ -46,11 +46,22 @@
 
    ![image-20240207110921143](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240207110921143.png)
 
-5. th
+5. Borra el contenedor.
 
-6. rth
+   ```bash
+   $ docker rm -f mi-php
+   ```
 
-7. rth
+   ![image-20240209100142239](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240209100142239.png)
+
+6. Crea un nuevo contenedor y monta el mismo volumen como en el ejercicio anterior.
+
+   cbncg
+
+7. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero
+   index.html . ¿Seguía existiendo ese fichero?
+
+   hjkg
 
 
 
