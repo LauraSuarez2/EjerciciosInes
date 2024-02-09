@@ -40,7 +40,11 @@
 
 4. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero index.html.
 
-   -
+   ```bash
+   $ docker start mi-php
+   ```
+
+   ![image-20240207110921143](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240207110921143.png)
 
 5. th
 
