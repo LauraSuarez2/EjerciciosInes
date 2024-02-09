@@ -56,12 +56,17 @@
 
 6. Crea un nuevo contenedor y monta el mismo volumen como en el ejercicio anterior.
 
-   cbncg
+   ```bash
+   $ docker run -d --name mi-php -v miweb:/var/www/html -p 8080:80 php:7.4-apache
+   ```
 
-7. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero
-   index.html . ¿Seguía existiendo ese fichero?
+   ![image-20240209100836104](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240209100836104.png)
 
-   hjkg
+7. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero index.html ¿Seguía existiendo ese fichero?
+   
+   ![image-20240209101000902](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240209101000902.png)
+   
+   Sí, se sigue viendo el fichero index.html, es decir que el contenido persiste a través del volumen Docker aunque el contenedor haya sido eliminado.
 
 
 
