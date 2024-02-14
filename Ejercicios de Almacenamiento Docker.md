@@ -40,13 +40,33 @@
 
 4. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero index.html.
 
-   -
+   ```bash
+   $ docker start mi-php
+   ```
 
-5. th
+   ![image-20240207110921143](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240207110921143.png)
 
-6. rth
+5. Borra el contenedor.
 
-7. rth
+   ```bash
+   $ docker rm -f mi-php
+   ```
+
+   ![image-20240209100142239](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240209100142239.png)
+
+6. Crea un nuevo contenedor y monta el mismo volumen como en el ejercicio anterior.
+
+   ```bash
+   $ docker run -d --name mi-php -v miweb:/var/www/html -p 8080:80 php:7.4-apache
+   ```
+
+   ![image-20240209100836104](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240209100836104.png)
+
+7. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero index.html ¿Seguía existiendo ese fichero?
+   
+   ![image-20240209101000902](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240209101000902.png)
+   
+   Sí, se sigue viendo el fichero index.html, es decir que el contenido persiste a través del volumen Docker aunque el contenedor haya sido eliminado.
 
 
 
