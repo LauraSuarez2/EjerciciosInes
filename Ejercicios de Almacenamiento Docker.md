@@ -75,9 +75,21 @@
 <u>Vamos a trabajr con **bind mount** :</u>
 
 1. Crea un directorio en tu host y dentro crea un fichero `index.html`.
+
+   ![image-20240214110050667](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240214110050667.png)
+
+   ![image-20240214110112172](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240214110112172.png)
+
 2. Crea un contenedor desde la imagen `php.7.4-apache` donde montes en el directorio `/var/www/html` el directorio que has creado por medio de `bind mount`.
+
+   ![image-20240214110139883](./Ejercicios%20de%20Almacenamiento%20Docker.assets/image-20240214110139883.png)
+
 3. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero `index.html.`
+
 4. Modifica el contenido del fichero `index.html` en tu host y comprueba que al refrescar la página ofrecida por el contenedor, el contenido ha cambiado.
+
 5. Borra el contenedor.
+
 6. Crea un nuevo contenedor y monta el mismo directorio como en el ejricico anterior.
+
 7. Accede al contenedor desde el navegador para ver la información ofrecida por el fichero `index.html`. ¿Se sigue viendo contenido?.
